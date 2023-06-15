@@ -1,0 +1,37 @@
+* {
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+header {
+    padding:16px 0;
+    display:flex;
+    justify-content:center;
+    margin-bottom:16px;
+}
+body {
+    padding-top:200px;
+}
+form {
+    display:block;
+    padding:10px auto;
+    max-width: 100px;
+    justify-content: space-between;
+    margin:0 auto;
+}
+ul {
+    display: center;
+    padding-top: 40px;
+}
+ul li {
+    text-align: center;
+    cursor:pointer;
+}
+form button {
+    cursor:pointer;
+}
+.riscado {
+    text-decoration: line-through;
+}
